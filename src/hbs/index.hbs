@@ -9,10 +9,6 @@ og_url: 'index.html'
 
 ---
 <main class="l-main">
-テスト
-{{#each config.loop10}}
-r10
-{{/each}}
-
-<p>{{ __.section1_text1 }}</p>
+  <p>{{ __.section1_text1 }}</p>
+  <a href="{{#if lang.en}}../{{else}}en/{{/if}}">{{#if lang.en}}日本語{{else}}英語{{/if}}ページへ</a>
 </main>
