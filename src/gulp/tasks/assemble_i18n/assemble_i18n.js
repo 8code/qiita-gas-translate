@@ -53,7 +53,8 @@ module.exports = (gulp, PATH, $) => {
             chunk.data['layoutsDir'] = `${ PATH.src.hbs }/layouts`;
             chunk.data['partialsDir'] = `${ PATH.src.hbs }/partials`;
             chunk.data['dataDir'] = `${ PATH.src.hbs }/data`;
-            chunk.data['lang'] = PAGELANG;
+            chunk.data['lang'] = {};
+            chunk.data['lang'][PAGELANG] = PAGELANG;
             chunk.data['langNum'] = LOOP_COUNT;
             chunk.data['locale'] = LOCALES[PAGELANG];
             chunk.data['slug'] = path.basename(chunk.path, '.hbs');
