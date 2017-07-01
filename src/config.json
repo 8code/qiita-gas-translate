@@ -1,8 +1,8 @@
 {
   "devMode": true,
   "assets": "/assets/themes/package",
-  "dist": "../www/static",
-  "static_html": "../www/static",
+  "dist": "../",
+  "static_html": "../",
   "public": "../www/html",
   "img": "assets/themes/package/img",
   "js": "assets/themes/package/js",
