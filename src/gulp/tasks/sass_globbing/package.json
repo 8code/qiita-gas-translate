@@ -1,0 +1,13 @@
+{
+  "name": "gulp-module-task-sass_globbing",
+  "version": "0.0.1",
+  "description": "custom task on front package.",
+  "main": "sass_globbing.js",
+  "private": true,
+  "dependencies": {
+    "gulp-sass-globbing": "^0.0.2"
+  },
+  "devDependencies": {},
+  "author": "yuichi aoki",
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "gulp-module-task-assemble_i18n",
+  "version": "0.0.1",
+  "description": "custom task on front package.",
+  "main": "assemble_i18n.js",
+  "private": true,
+  "dependencies": {
+    "assemble": "^0.24.3",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-prettify": "^0.5.0",
+    "handlebars-helpers": "^0.8.2",
+    "js-yaml": "^3.8.4",
+    "gulp-foreach": "^0.1.0",
+    "path": "^0.12.7",
+    "gulp-ignore": "^2.0.2"
+  },
+  "devDependencies": {},
+  "author": "yuichi aoki",
+  "license": "MIT"
+}

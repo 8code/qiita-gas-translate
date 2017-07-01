@@ -1,0 +1,16 @@
+{
+  "name": "gulp-module-task-imagemin",
+  "version": "0.0.1",
+  "description": "custom task on front package.",
+  "main": "imagemin.js",
+  "private": true,
+  "dependencies": {
+    "gulp-chmod": "^2.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "devDependencies": {},
+  "author": "yuichi aoki",
+  "license": "MIT"
+}

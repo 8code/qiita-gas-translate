@@ -1,0 +1,13 @@
+{
+  "name": "gulp-module-task-sprite_smith",
+  "version": "0.0.1",
+  "description": "custom task on front package.",
+  "main": "sprite_smith.js",
+  "private": true,
+  "dependencies": {
+    "gulp.spritesmith": "^6.2.1"
+  },
+  "devDependencies": {},
+  "author": "yuichi aoki",
+  "license": "MIT"
+}

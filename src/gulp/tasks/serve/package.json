@@ -1,0 +1,13 @@
+{
+  "name": "gulp-module-task-webserver",
+  "version": "0.0.1",
+  "description": "custom task on front package.",
+  "main": "serve.js",
+  "private": true,
+  "dependencies": {
+    "gulp-webserver": "^0.9.1"
+  },
+  "devDependencies": {},
+  "author": "yuichi aoki",
+  "license": "MIT"
+}

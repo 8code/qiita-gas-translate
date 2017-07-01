@@ -1,0 +1,45 @@
+{
+  "devMode": true,
+  "assets": "/assets/themes/package",
+  "dist": "../www/static",
+  "static_html": "../www/static",
+  "public": "../www/html",
+  "img": "assets/themes/package/img",
+  "js": "assets/themes/package/js",
+  "css": "assets/themes/package/css",
+  "font": "assets/themes/package/fonts",
+  "src": {
+    "img": "./img",
+    "js": "./js",
+    "scss": "./scss",
+    "hbs": "./hbs"
+  },
+  "gulp": {
+    "tasks": "./gulp/tasks",
+    "utils": "./gulp/utils",
+    "languages": "./gulp/languages"
+  },
+  "port": 6002,
+  "uses": {
+    "assemble"        : "COMMENT: 静的サイト構築用モジュール",
+    "assemble"        : false,
+    "assemble_i18n"   : "COMMENT: 静的サイト構築用モジュール（多言語対応版）",
+    "assemble_i18n"   : true,
+    "browserify"      : "COMMENT: --",
+    "browserify"      : false,
+    "compress"        : "COMMENT: css, jsをgzip化するモジュールします",
+    "compress"        : false,
+    "imagemin"        : "COMMENT: src内のimgを圧縮します。jpg, png, gif, svgに対応",
+    "imagemin"        : false,
+    "sass"            : "COMMENT: --",
+    "sass"            : true,
+    "sass_globbing"   : "COMMENT: scssをフォルダ単位でグルーピングします",
+    "sass_globbing"   : true,
+    "spread2json"     : "COMMENT: スプレッドシートをjson形式でダウンロードします",
+    "spread2json"     : true,
+    "serve"           : "COMMENT: --",
+    "serve"           : true,
+    "sprite_smith"    : "COMMENT: --",
+    "sprite_smith"    : false
+  }
+}

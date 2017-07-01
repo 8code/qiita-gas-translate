@@ -1,0 +1,60 @@
+---
+published: false
+---
+<!DOCTYPE html>
+<!--[if IE 9 ]><html lang="{{ lang }}" class="is-ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="{{ lang }}"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ title }}</title>
+  <meta name="keywords" content="{{ keywords }}">
+  <meta name="description" content="{{ description }}">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=no, address=no, email=no">
+  <!-- facebook -->
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:site_name" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:url" content="http://domain/{{ og_url }}">
+  <meta property="og:image" content="http://domein/assets/img/og.jpg">
+  <meta property="og:locale" content="{{ locale }}">
+  <meta property="og:type" content="website">
+  <meta property="fb:app_id" content="" />
+  <!-- twitter -->
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ description }}" />
+  <meta name="twitter:url" content="http://domain/{{ og_url }}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="http://domain/assets/img/og.jpg" />
+  <link rel="alternate" hreflang="{{ lang }}" href="http://domain/{{ lang }}/" />
+  <link rel="stylesheet" href="{{ assets }}/css/style.css" media="screen">
+  {{!-- <link rel="stylesheet" href="{{ assets }}/css/print.css" media="print">  --}}
+  {{!-- <link rel="apple-touch-icon" href="{{ assets }}/img/apple-touch-icon.png"> --}}
+  {{!-- <link rel="icon" href="{{ assets }}/img/favicon_32_32.png"> --}}
+  <!--[if IE 9 ]>
+    <style>
+    </style>
+  <![endif]-->
+</head>
+<body class="">
+  <div id="fb-root"></div>
+
+  <div class="l-container">
+    {{> _header }}
+
+    {% body %}
+
+    {{> _footer }}
+  </div>
+
+  <!--script src="https://maps.googleapis.com/maps/api/js?key="></script-->
+  <script src="{{ assets }}/js/build.min.js"></script>
+  <script src="//scdn.line-apps.com/n/line_it/thirdparty/loader.min.js" async="async" defer="defer" ></script>
+  <script>
+    // GoogleAnalyticsObject
+  </script>
+
+</body>
+</html>

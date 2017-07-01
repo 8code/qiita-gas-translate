@@ -1,0 +1,14 @@
+{
+  "name": "gulp-module-task-compress",
+  "version": "0.0.1",
+  "description": "custom task on front package.",
+  "main": "compress.js",
+  "private": true,
+  "dependencies": {
+    "gulp-gzip": "^1.4.0",
+    "gulp-merge": "^0.1.1"
+  },
+  "devDependencies": {},
+  "author": "yuichi aoki",
+  "license": "MIT"
+}
