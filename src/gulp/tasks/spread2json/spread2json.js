@@ -3,7 +3,7 @@ const authorize = require(`${process.env.PWD}/gulp/utils/gapi_authorize/gapi_aut
 
 module.exports = (gulp, PATH, $) => {
   let auth = {
-    scriptId: 'M_W5Ql7uS5COo9eqKIgy2arcQggsTmNIl',
+    scriptId: '[メモしていたスクリプトID]',
     scope: ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/script.external_request'],
     token: 'script-nodejs-quickstart.json'
   };
@@ -12,7 +12,7 @@ module.exports = (gulp, PATH, $) => {
     function: 'spread2json',
     parameters: [
       'getData', {
-        sheetId: '1og709ajh6JPG-uJA2nJCkFoq0tFITKX50gym4EL8ymE',
+        sheetId: '[メモしていたシートID]',
         sheetName: 'シート1'
       }
     ],
