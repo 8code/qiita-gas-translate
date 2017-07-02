@@ -81,7 +81,6 @@ gulp.task('sprite', packageManager.getTask('sprite_smith'))
 
 /**
  * serve
- * e.g. hostsで[127.0.0.1 localhost]が有効になっている必要があります。
  */
 gulp.task('serve', packageManager.getTask('serve'))
 

@@ -19,7 +19,7 @@
     "utils": "./gulp/utils",
     "languages": "./gulp/languages"
   },
-  "port": 6002,
+  "port": 6000,
   "uses": {
     "assemble"        : "COMMENT: 静的サイト構築用モジュール",
     "assemble"        : false,
